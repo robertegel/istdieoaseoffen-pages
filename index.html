@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sind die Lernräume am TIB (6. OG) offen?</title>
+  <link rel="stylesheet" href="./static/main.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+
+  <script type="text/javascript">
+    window.onload = function () {
+      document.getElementById("scroll_arrow").onclick = function () {
+        var box = document.getElementById("box");
+        box.scrollIntoView({ behavior: 'smooth' });
+      };
+    };
+  </script>
+</head>
+
+<link rel="icon" type="image/png" href="./static/oase_favicon.png" />
+
+<body link="#fff" alink="#fff" vlink="#fff">
+
+
+
+  <div class="janeinBox">
+    <!-- {% if oaseoffen %} -->
+
+    <h1 id="ja"> JA </h1>
+    <h1>Die Lernräume im 6. OG sind gerade offen.</h1>
+
+    <!-- {% else %} -->
+    
+    <!-- <h1 id="nein"> NEIN </h1>
+    <h1>Die Lernräume im 6. OG sind aktuell geschlossen.</h1> -->
+    
+    <!-- {% endif %} -->
+
+    <h3>Die öffentlichen Lernräume sowie die Bibliothek im 6. OG können derzeit unter Beachtung des <a
+        href="http://bauinx-berlin.de/Studentischer-Bereich/">aktuellen Hygienekonzepts</a> genutzt werden.</h3>
+    <div class="imageWrapper">
+      <!-- <img id="scroll_arrow" onkeypress="scroll_down" src="{{ url_for('static', filename='scroll_arrow.svg') }}" width=10% class="bottomImage"> -->
+    </div>
+  </div>
+
+  <div class="box">
+    <img style="text-align: center;" src="static/abriss_.jpg" alt="" width=100%
+      align="middle">
+    <p>Die Oase ist aktuell im Bauzustand, sobald sich das ändert, findet ihr es raus.</p>
+  </div>
+
+  <!-- <div class="box" id="box">
+    <p>Getränk des Monats ist aktuell {{ getraenkDesMonats }}.</p>
+    <form action="{{ url_for('suggestion') }}" method="post">
+      <p>Findest du nicht gut und hast einen besseren Vorschlag für nächsten Monat? Sag's uns!</p>
+      <div class="form-group">
+        <input class="form-control" name="suggestion_text" type="text" placeholder="dein Vorschlag">
+        <button class="form-control" name="submit" type="submit"> absenden </button>
+      </div>
+    </form>
+  </div> -->
+
+  <div class="box">
+    <a href="./impressum">Impressum</a>
+</body>
+
+</html>
