@@ -55,11 +55,11 @@ button[type=submit] {
 }
 
 #ja {
-  font-size: 30vmin;
+  font-size: 40vmin;
 }
 
 #nein {
-  font-size: 25vmin;
+  font-size: 35vmin;
 }
 
 .imageWrapper {
@@ -87,7 +87,7 @@ button[type=submit] {
   background-color: #696969;
   color: white;
   padding: 20px;
-  height: 92vh;
+  min-height: 92vh;
 }
 
 .btn-block,
