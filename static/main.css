@@ -1,24 +1,65 @@
-@import url('css/ibm-plex.css')
+@import url('css/ibm-plex.css');
 
 html {
-    background-attachment: fixed;
-    max-width: 100%;
-    height: auto;
-    -webkit-font-smoothing: antialiased;
+  background-attachment: fixed;
+  max-width: 100%;
+  height: auto;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-    color: #fff ;
-    font-family: 'IBM Plex Mono', Monaco, Menlo, monospace;
-    line-height: 1;
-    margin: 0 auto;
-    padding: 2vh;
-    background-color: #000000;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+  color: #fff;
+  font-family: 'IBM Plex Mono', Monaco, Menlo, monospace;
+  line-height: 1;
+  margin: 0 auto;
+  padding: 2vh;
+  background-color: #000000;
 }
 
 div {
-    text-align:center;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+input[type=text] {
+  height: 40px;
+  font-family: 'IBM Plex Mono';
+  margin: none;
+  border: none;
+  padding: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  line-height: 1;
+  font-size: 15px;
+}
+
+button[type=submit] {
+  background-color: white;
+  color: black;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'IBM Plex Mono';
+  line-height: 1;
+  font-size: 15px;
+}
+
+#ja {
+  font-size: 30vmin;
+}
+
+#nein {
+  font-size: 30vmin;
 }
 
 .imageWrapper {
@@ -36,99 +77,57 @@ div {
 }
 
 .box {
-    background-color:#696969;
-    color:white;
-    padding:20px;
-    margin-top: 2vh;
+  background-color: #696969;
+  color: white;
+  padding: 20px;
+  margin-top: 2vh;
 }
 
 .janeinBox {
-    background-color:#696969;
-    color:white;
-    padding:20px;
-    height: 92vh;
+  background-color: #696969;
+  color: white;
+  padding: 20px;
+  height: 92vh;
 }
 
-.btn-block,input[type=submit].btn-block{width:100%}.fade{transition:opacity .15s linear}
+.btn-block,
+input[type=submit].btn-block {
+  width: 100%
+}
 
-@media screen and (max-aspect-ratio: 1/1) /* Mobile */ {
-  #ja {
-    font-size: 40vw;
-  }
+.fade {
+  transition: opacity .15s linear
+}
 
-  #nein {
-    font-size: 35vw;
-  }
-
+/* Mobile */
+@media screen and (max-aspect-ratio: 1/1) {
   #banner {
-      width: 100%;
+    width: 100%;
+    max-width: 500px;
   }
 
-  input[type=text]{
+  input[type=text] {
     width: 80vw;
     text-align: center;
   }
 
-  button[type=submit]{
+  button[type=submit] {
     width: 80vw;
     text-align: center;
     margin-top: 10px;
   }
 }
 
-@media screen and (min-aspect-ratio: 1/1) /* Desktop */ {
-  #ja {
-    font-size: 30vh;
-  }
+/* Desktop */
+@media screen and (min-aspect-ratio: 1/1) {
 
-  #nein {
-    font-size: 30vh;
-  }
-
-  #banner {
-      width: 500px;
-  }
-
-  input[type=text]{
+  input[type=text] {
     width: 60vw;
     text-align: right;
   }
 
-  button[type=submit]{
+  button[type=submit] {
     width: 20vw;
     text-align: center;
   }
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-h1  {
-  font-weight: bold;
-}
-
-input[type=text]{
-  height: 40px;
-  font-family: 'IBM Plex Mono';
-  margin: none;
-  border: none;
-  padding: none;
-  padding-right: 5px;
-  padding-left: 5px;
-  line-height: 1;
-  font-size: 15px;
-}
-
-button[type=submit]{
-  background-color: white;
-  color: black;
-  height: 40px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: 'IBM Plex Mono';
-  line-height: 1;
-  font-size: 15px;
 }
