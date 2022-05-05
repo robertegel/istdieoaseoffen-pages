@@ -62,6 +62,35 @@ button[type=submit] {
   font-size: 30vmin;
 }
 
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.open {
+  background-color: rgb(40, 101, 123);
+  font-size: 0;
+  height: 1cm;
+  width: 1cm;
+  margin: auto; 
+}
+
+.closed {
+  font-size: 0;
+}
+
+.weekday {
+  text-align: center;
+  font-style: italic;
+  vertical-align: top;
+  height: 1cm;
+}
+
+.time {
+  text-align: center;
+  font-style: italic;
+}
+
 .imageWrapper {
   height: 80vh;
   width: 100%;
