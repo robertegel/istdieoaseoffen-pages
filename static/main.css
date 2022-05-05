@@ -55,11 +55,11 @@ button[type=submit] {
 }
 
 #ja {
-  font-size: 40vmin;
+  font-size: 32vmin;
 }
 
 #nein {
-  font-size: 32vmin;
+  font-size: 30vmin;
 }
 
 .imageWrapper {
