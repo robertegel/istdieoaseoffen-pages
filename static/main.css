@@ -65,6 +65,7 @@ button[type=submit] {
 table {
   width: 100%;
   table-layout: fixed;
+  border-collapse: collapse; 
 }
 
 .open {
@@ -83,7 +84,6 @@ table {
   text-align: center;
   font-style: italic;
   vertical-align: top;
-  height: 1cm;
 }
 
 .time {
