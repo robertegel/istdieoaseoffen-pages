@@ -1,111 +1,125 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Ist die Oase offen offen?</title>
+    <link rel="stylesheet" href="./static/main.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0"
+    />
 
-<head>
-  <title>Ist die Oase offen offen?</title>
-  <link rel="stylesheet" href="./static/main.css">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-
-  <script type="text/javascript">
-    window.onload = function () {
-      document.getElementById("scroll_arrow").onclick = function () {
-        var box = document.getElementById("box");
-        box.scrollIntoView({ behavior: 'smooth' });
+    <script type="text/javascript">
+      window.onload = function () {
+        document.getElementById("scroll_arrow").onclick = function () {
+          var box = document.getElementById("box");
+          box.scrollIntoView({ behavior: "smooth" });
+        };
       };
-    };
-  </script>
-</head>
+    </script>
+  </head>
 
-<link rel="icon" type="image/png" href="./static/oase_favicon.png" />
+  <link rel="icon" type="image/png" href="./static/oase_favicon.png" />
 
-<body link="#fff" alink="#fff" vlink="#fff">
+  <body link="#fff" alink="#fff" vlink="#fff">
+    <div class="janeinBox">
+      
 
-  <div class="janeinBox">
-    
+      <h1 id="ja">JA</h1>
+      <h1>Die Oase ist gerade offen 🍾😍</h1>
 
-    <h1 id="ja"> JA </h1>
-    <h1>Die Oase ist gerade offen 🍾😍</h1>
+      
+    </div>
 
-    
-  </div>
+    <div class="box">
+      <h1>Schichtplan</h1>
 
-  <div class="box">
-    <h1>Schichtplan</h1>
-
-    <table style="border-collapse: collapse;">
-      <tr>
+      <table style="border-collapse: collapse">
+        <tr>
           <td></td>
           <td class="weekday">Mo</td>
           <td class="weekday">Di</td>
           <td class="weekday">Mi</td>
           <td class="weekday">Do</td>
           <td class="weekday">Fr</td>
-      </tr>
-      <tr style="height: 0.2cm; border-bottom: 1.5px solid white;">
-        <td style="colspan: 100%"></td>
-        <td style="colspan: 100%"></td>
-        <td style="colspan: 100%"></td>
-        <td style="colspan: 100%"></td>
-        <td style="colspan: 100%"></td>
-        <td style="colspan: 100%"></td>
-      </tr>
-      <tr style="height: 0.2cm;"></tr>
-      <tr>
+        </tr>
+        <tr style="height: 0.2cm; border-bottom: 1.5px solid white">
+          <td style="colspan: 100%"></td>
+          <td style="colspan: 100%"></td>
+          <td style="colspan: 100%"></td>
+          <td style="colspan: 100%"></td>
+          <td style="colspan: 100%"></td>
+          <td style="colspan: 100%"></td>
+        </tr>
+        <tr style="height: 0.2cm"></tr>
+        <tr>
           <td class="time">08-10</td>
           <td><div class="closed">🚫</div></td>
           <td><div class="closed">🚫</div></td>
           <td><div class="open">✅</div></td>
           <td><div class="open">✅</div></td>
           <td><div class="closed">🚫</div></td>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
           <td class="time">10-12</td>
           <td><div class="open">✅</div></td>
           <td><div class="open">✅</div></td>
           <td><div class="open">✅</div></td>
           <td><div class="open">✅</div></td>
           <td><div class="open">✅</div></td>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
           <td class="time">12-14</td>
           <td><div class="open">✅</div></td>
           <td><div class="open">✅</div></td>
           <td><div class="open">✅</div></td>
           <td><div class="open">✅</div></td>
           <td><div class="open">✅</div></td>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
           <td class="time">14-16</td>
           <td><div class="open">✅</div></td>
           <td><div class="closed">🚫</div></td>
           <td><div class="closed">🚫</div></td>
           <td><div class="open">✅</div></td>
           <td><div class="open">✅</div></td>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
           <td class="time">16-18</td>
           <td><div class="closed">🚫</div></td>
           <td><div class="closed">🚫</div></td>
           <td><div class="closed">🚫</div></td>
           <td><div class="open">✅</div></td>
           <td><div class="open">✅</div></td>
-      </tr>
-      <tr style="height: 0.2cm; border-bottom: 1.5px solid white;">
-        <td style="colspan: 100%"></td>
-        <td style="colspan: 100%"></td>
-        <td style="colspan: 100%"></td>
-        <td style="colspan: 100%"></td>
-        <td style="colspan: 100%"></td>
-        <td style="colspan: 100%"></td>
-      </tr>
-    </table>
-  </div>
+        </tr>
+        <tr style="height: 0.2cm; border-bottom: 1.5px solid white">
+          <td style="colspan: 100%"></td>
+          <td style="colspan: 100%"></td>
+          <td style="colspan: 100%"></td>
+          <td style="colspan: 100%"></td>
+          <td style="colspan: 100%"></td>
+          <td style="colspan: 100%"></td>
+        </tr>
+      </table>
+    </div>
 
-  <div class="box">
-    <a href="http://bauinx-berlin.de/">Website der BauInX</a> |
-    <a href="./impressum">Impressum</a>
-  </div>
-</body>
+    <div class="box">
+      <h1>Was sonst noch so läuft</h1>
+      <ul>
+        <li>23.06.2022, ab 19h: Bierballturnier der BauInX im Humboldthain (große Wiese)</li>
+        <li>
+          01.07.2022, ab 16h: Absolvent:innenfeier und Sommerfest der Bauings <br> 
+          <b>Wir suchen aktuell noch Freiwillige, z.B. für Aufbau, Tresenschichten und Abbau. <br> 
+            Falls du magst, melde dich gern bei den <a href="http://bauinx-berlin.de/">BauInX</a></b>
+        </li>
+        <li>02.07.2022: Lange Nacht der Wissenschaften (allerdings nicht am Institut für Bauingenieurwesen 😢)</li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <a href="http://bauinx-berlin.de/">Website der BauInX</a> |
+      <a href="./impressum">Impressum</a>
+    </div>
+  </body>
 </html>
