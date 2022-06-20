@@ -116,7 +116,7 @@ table {
   background-color: #696969;
   color: white;
   padding: 20px;
-  min-height: 92vh;
+  /* min-height: 92vh; */
 }
 
 .btn-block,
