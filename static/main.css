@@ -62,6 +62,12 @@ button[type=submit] {
   font-size: 30vmin;
 }
 
+li {
+  text-align: left;
+  margin: 10pt;
+  line-height: 125%;
+}
+
 table {
   width: 100%;
   /* table-layout: fixed; */
